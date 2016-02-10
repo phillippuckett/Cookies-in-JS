@@ -10,6 +10,6 @@ var setColorCookie = function () {
     var selectedColor = document.getElementById('colors').value;
     if (selectedColor != 'Select Color') {
         document.bgColor = selectedColor
-        document.cookie = 'color=' + selectedColor + ';expires=Friday, 5 Aug 2016 01:00:00 UTC;';
+        document.cookie = 'color=' + selectedColor + ';expires=Fri, 5 Aug 2016 01:00:00 UTC;';
     }
 };
